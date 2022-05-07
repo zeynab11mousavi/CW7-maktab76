@@ -1,0 +1,100 @@
+.container{
+
+    
+    width: 100%;
+    height: 100%;
+    }
+
+.top{
+    border: 0.5px solid black;
+    border-width: thin;
+    width: 100%;
+    height: 100px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+      
+}
+.logo{
+    border: 0.5px solid black;
+    height: 50px;
+    width: 200px;
+    text-align: center;
+    padding-top: 10px;
+    margin-left: 10px;
+    margin-right: 5px;
+    margin-top: 15px;
+    order: 5;
+}
+.search-goods{
+    position: relative;
+    margin-left: 300px;
+    
+}
+#search{
+    border-radius: 50px;
+    width: 800px;
+    height: 30px;
+    text-align: center;
+    margin-top: 30px;
+    
+}
+.search{
+    z-index: 2;
+    position: absolute;
+    top: 35px;
+    right: 10px;
+
+
+}
+
+.circles{
+    display: flex;
+  flex-wrap: nowrap;
+  background-color: white;
+  
+}
+
+.circles > div {
+    /* margin-right: 2rem; */
+    margin-left: 2rem;
+    text-align: center;
+    line-height: 18px;
+    font-size: 15;
+    width: calc(12% -4rem); 
+   
+ }
+ .Aside{
+    border: 0.5px solid black;
+    width:200px ;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 100px;
+ }
+ .profile{
+     display: inline-block;
+    position: absolute ;
+    margin-top: 20px;
+    margin-left: 20px;
+    
+
+ }
+ .profileimage{
+     border-radius: 50%;
+ }
+
+.rectangles{
+    margin: 50px 40px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 15px;
+}
+ .rectangles > div{
+     height: 210px;
+     border-radius: 15%;  
+    margin: 0rem;
+ }
+
+
+ 
